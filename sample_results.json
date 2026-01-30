@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "model_id": "ecoli_core_model",
+    "timestamp": "2026-01-30T14:30:00",
+    "method": "Parameter Optimization - Levenberg-Marquardt",
+    "software": "sbmlsim v0.2.2",
+    "user": "atul_gsoc_demo"
+  },
+  "optimization_results": {
+    "aic": 234.5,
+    "rmse": 0.0123,
+    "r_squared": 0.94,
+    "parameters": [
+      {"name": "k_cat_PFK", "value": 0.512, "confidence_interval": [0.489, 0.535], "unit": "1/s"},
+      {"name": "K_m_glucose", "value": 1.234, "confidence_interval": [1.189, 1.279], "unit": "mM"},
+      {"name": "V_max_GAPDH", "value": 3.456, "confidence_interval": [3.298, 3.614], "unit": "mmol/L/s"},
+      {"name": "k_inhibition", "value": 0.089, "confidence_interval": [0.078, 0.100], "unit": "1/mM"}
+    ],
+    "training_rmse": 0.0115,
+    "validation_rmse": 0.0130,
+    "iterations": 42,
+    "convergence_criterion": 1e-6
+  },
+  "goodness_of_fit": {
+    "training_points": 100,
+    "validation_points": 30,
+    "chi_squared": 12.34,
+    "degrees_of_freedom": 96
+  }
+}
