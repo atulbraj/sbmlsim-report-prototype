@@ -254,7 +254,7 @@ src/sbmlsim/
 
 ---
 
-## 📈 Next Steps for GSoC Project
+## Next Steps for GSoC Project Timeline ( As per my expectation and understandings )
 
 Based on Issue #180 requirements, the full GSoC project would include:
 
